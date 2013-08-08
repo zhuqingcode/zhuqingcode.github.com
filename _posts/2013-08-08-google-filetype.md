@@ -24,15 +24,15 @@ tags: [google]
 
 2. 假如你想搜索有关于**"linux"**这个关键字的所有**"pdf"**文档，你可以这样子来搜索：
 
-`filetype:pdf linux`
+	`filetype:pdf linux`
 
 3. 我们再来试试搜索**"doc"**文档  
 
-`filetype:doc linux`
+	`filetype:doc linux`
 
 4. 再来个有趣的  
 
-`filetype:swf 暗号`  
+	`filetype:swf 暗号`  
 
 你会发现**2**搜索出来的全是pdf文档；**3**全是doc文档；而**4**是关于[周杰伦][1]暗号的flash文件。  
 
