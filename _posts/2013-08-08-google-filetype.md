@@ -36,6 +36,8 @@ tags: [google]
 
 你会发现**2**搜索出来的全是pdf文档；**3**全是doc文档；而**4**是关于[周杰伦][1]暗号的flash文件。  
 
+完  
+=
 
 [1]: http://zh.wikipedia.org/zh/%E5%91%A8%E6%9D%B0%E5%80%AB
 
