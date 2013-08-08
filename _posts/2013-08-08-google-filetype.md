@@ -2,7 +2,7 @@
 layout: post
 title: "Google技巧之filetype"
 description: ""
-category: 
+category: google
 tags: [google]
 ---
 {% include JB/setup %}
