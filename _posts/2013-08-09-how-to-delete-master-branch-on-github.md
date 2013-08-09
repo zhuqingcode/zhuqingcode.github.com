@@ -20,6 +20,10 @@ tags: [git, github]
  	! [remote rejected] master (deletion of the current branch prohibited)
 	error: failed to push some refs to 'git@github.com:zhuqingcode/zhuqingcode.github.com.git'  
 
+如下图：  
+
+![github-settings](/images/github-settings.png)
+
 很显然，你这种做法不能达到你想要的效果。正确的做法：  
 
 * 先去github上更改默认的分支：  
