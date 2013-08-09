@@ -2,7 +2,7 @@
 layout: post
 title: "shell脚本编程之最简单的死循环"
 description: ""
-category: 
+category: shell
 tags: [shell, bash]
 ---
 {% include JB/setup %}

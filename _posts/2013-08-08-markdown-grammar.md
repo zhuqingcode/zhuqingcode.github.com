@@ -2,7 +2,7 @@
 layout: post
 title: "markdown语法速记"
 description: ""
-category: 
+category: markdown
 tags: [markdown]
 ---
 {% include JB/setup %}
