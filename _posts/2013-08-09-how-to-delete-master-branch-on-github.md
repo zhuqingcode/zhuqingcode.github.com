@@ -22,7 +22,7 @@ tags: [git, github]
 
 如下图：  
 
-![github-settings](/images/github-settings.png)
+![delete-master](/images/delete-master.png)  
 
 很显然，你这种做法不能达到你想要的效果。正确的做法：  
 
@@ -30,7 +30,10 @@ tags: [git, github]
 
 	Settings-->Default Branch  
 
-更改你想要的分支。  
+更改你想要的分支。如下图：  
+
+![github-settings](/images/github-settings.png)  
+
 
 * 然后，回到git里面重新做一下上一条删除命令即可。  
 
