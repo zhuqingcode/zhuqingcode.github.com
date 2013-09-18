@@ -27,17 +27,17 @@ tags: [vim]
 
 为了证明这两个**^M**的确不一样，我们进入vim十六进制编辑模式：  
 
->键入『1,$!xxd』『Enter』  ，如下图：  
+>键入『:1,$!xxd』『Enter』  ，如下图：  
 
 ![vim-ctrl1](/images/vim-ctrl1.png) 
 
 看到不一样的地方了吧！  我们回到正常模式：  
 
->键入『1,$!xxd -r』『Enter』
+>键入『:1,$!xxd -r』『Enter』
 
 下面就来具体讨论怎么删除**^M**(0x0d 0x0a)：  
 
->键入『1,$s/『Ctrl+v Ctrl+M』//g』『Enter』  
+>键入『:1,$s/『Ctrl+v Ctrl+M』//g』『Enter』  
 
 为了说明清楚，我录制了一个gif动态图：  
 
@@ -45,7 +45,7 @@ tags: [vim]
 
 或者：  
 
->键入『1,$s/\r//g』『Enter』   
+>键入『:1,$s/\r//g』『Enter』   
 
 如下图：  
 
@@ -55,7 +55,7 @@ tags: [vim]
 
 下面就说说如何删除纯字符型的**^M**，这个较简单：  
 
->键入『1,$s/『Shift+^ Shift+M』//g』『Enter』   
+>键入『:1,$s/『Shift+^ Shift+M』//g』『Enter』   
 
 如下图：  
 
