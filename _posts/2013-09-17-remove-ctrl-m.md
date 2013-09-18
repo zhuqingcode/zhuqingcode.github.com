@@ -21,9 +21,9 @@ tags: [vim]
 >8.同第【4】步，生成10行纯字符型的**^M**  
 >9.『Esc』进出『normal』模式  
 
-如下图：  
+为了说明清楚，我录制了一个gif动态图：  
 
-![vim-ctrl0](/images/vim-ctrl0.png)  
+![vim-ctrl3](https://github.com/zhuqingcode/zhuqingcode.github.com/blob/master/images/vim-ctrl-m3.gif?raw=true)   
 
 为了证明这两个**^M**的确不一样，我们进入vim十六进制编辑模式：  
 
@@ -39,7 +39,7 @@ tags: [vim]
 
 >键入『:1,$s/『Ctrl+v Ctrl+M』//g』『Enter』  
 
-为了说明清楚，我录制了一个gif动态图：  
+如下图：  
 
 ![vim-ctrl-m0](https://github.com/zhuqingcode/zhuqingcode.github.com/blob/master/images/vim-ctrl-m0.gif?raw=true)  
 
