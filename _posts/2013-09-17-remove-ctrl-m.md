@@ -23,13 +23,13 @@ tags: [vim]
 
 如下图：  
 
-![vim-ctrl0](/images/vim-ctrl0.png)  
+![vim-ctrl0](/images/vim-ctrl0.png])  
 
 为了证明这两个**^M**的确不一样，我们进入vim十六进制编辑模式：  
 
 >键入『1,$!xxd』『Enter』  ，如下图：  
 
-![vim-ctrl1](/images/vim-ctrl1.png) 
+![vim-ctrl1](/images/vim-ctrl1.png]) 
 
 看到不一样的地方了吧！  我们回到正常模式：  
 
