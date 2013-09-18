@@ -55,7 +55,7 @@ tags: [vim]
 
 下面就说说如何删除纯字符型的**^M**，这个较简单：  
 
->键入『:1,$s/『Shift+^ Shift+M』//g』『Enter』   
+>键入『:1,$s/\『Shift+^ Shift+M』//g』『Enter』   
 
 如下图：  
 
