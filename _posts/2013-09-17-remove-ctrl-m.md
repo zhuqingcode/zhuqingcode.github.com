@@ -41,4 +41,30 @@ tags: [vim]
 
 为了说明清楚，我录制了一个gif动态图：  
 
+![vim-ctrl-m0](https://github.com/zhuqingcode/zhuqingcode.github.com/blob/master/images/vim-ctrl-m0.gif?raw=true)  
+
+或者：  
+
+>键入『1,$s/\r//g』『Enter』   
+
+如下图：  
+
+![vim-ctrl-m1](https://github.com/zhuqingcode/zhuqingcode.github.com/blob/master/images/vim-ctrl-m1.gif?raw=true)   
+
+是不是删除了**^M**(0x0d 0x0a)了！  
+
+下面就说说如何删除纯字符型的**^M**，这个较简单：  
+
+>键入『1,$s/『Shift+^ Shift+M』//g』『Enter』   
+
+如下图：  
+
+![vim-ctrl-m2](https://github.com/zhuqingcode/zhuqingcode.github.com/blob/master/images/vim-ctrl-m2.gif?raw=true)  
+
+看到了吧？就这么简单！  
+
+#完 
+
+
+
 
