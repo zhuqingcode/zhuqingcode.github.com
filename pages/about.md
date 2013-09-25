@@ -13,7 +13,9 @@ description: ""
 
 - **linux kernel&drivers**
 
-- **git**
+- **git**  
+
+- **Vim**
 
 **社交**
 =
