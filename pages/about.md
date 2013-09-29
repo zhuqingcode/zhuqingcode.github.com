@@ -15,7 +15,9 @@ description: ""
 
 - **git**  
 
-- **Vim**
+- **Vim**  
+
+- **Shell/bash**
 
 **社交**
 =
