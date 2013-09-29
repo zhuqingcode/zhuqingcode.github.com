@@ -25,7 +25,7 @@ description: ""
 
 - **twitter：[https://twitter.com/zhumaomaotwiter](https://twitter.com/zhumaomaotwiter)**  
 
-- **邮箱：****zhuqinggooogle@gmail.com**
+- **g+：[maomao zhu](https://plus.google.com/u/0/105119903103406117403/posts)**
 
 **自我评价**
 =
