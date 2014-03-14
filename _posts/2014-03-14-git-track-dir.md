@@ -2,7 +2,7 @@
 layout: post
 title: "git跟踪某些目录"
 description: ""
-category: 
+category: git
 tags: [git]
 ---
 {% include JB/setup %}
