@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "编译compat wireless时报missing `endif'.  Stop.的错误"
+title: "compat wireless missing `endif'.  Stop."
 description: ""
 category: linux
 tags: [linux]
