@@ -3,7 +3,7 @@ layout: post
 title: "根据linux Oops定位错误代码行"
 description: ""
 category: linux
-tags: [linux]
+tags: [linux,oops]
 ---
 {% include JB/setup %}
 

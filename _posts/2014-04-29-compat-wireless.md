@@ -3,7 +3,7 @@ layout: post
 title: "compat wireless missing `endif'.  Stop."
 description: ""
 category: linux
-tags: [linux]
+tags: [compat-wireless,wifi]
 ---
 {% include JB/setup %}
 

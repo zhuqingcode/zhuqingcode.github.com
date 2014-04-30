@@ -3,7 +3,7 @@ layout: post
 title: "version magic"
 description: ""
 category: linux
-tags: [linux]
+tags: [version-magic,git]
 ---
 {% include JB/setup %}
 
