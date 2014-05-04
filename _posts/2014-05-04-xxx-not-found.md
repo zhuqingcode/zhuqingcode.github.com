@@ -3,7 +3,7 @@ layout: post
 title: "./xxx: not found"
 description: ""
 category: linux
-tags: [Makefile,函数库]
+tags: [Makefile,static]
 ---
 {% include JB/setup %}  
 
