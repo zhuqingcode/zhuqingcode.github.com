@@ -3,7 +3,7 @@ layout: post
 title: "删除github上的master分支"
 description: ""
 category: git
-tags: [git, github]
+tags: [git, github,master]
 ---
 {% include JB/setup %}
 

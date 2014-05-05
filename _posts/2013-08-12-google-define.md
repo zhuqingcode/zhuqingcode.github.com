@@ -3,7 +3,7 @@ layout: post
 title: "Google技巧之define"
 description: ""
 category: google
-tags: [google]
+tags: [google,define]
 ---
 {% include JB/setup %}
 

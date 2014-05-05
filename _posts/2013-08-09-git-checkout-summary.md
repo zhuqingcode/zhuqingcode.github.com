@@ -3,7 +3,7 @@ layout: post
 title: "git checkout使用总结"
 description: ""
 category: git
-tags: [git]
+tags: [git,checkout]
 ---
 {% include JB/setup %}
 

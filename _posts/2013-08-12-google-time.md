@@ -3,7 +3,7 @@ layout: post
 title: "Google技巧之双点"
 description: ""
 category: google
-tags: [google]
+tags: [google,time]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "git checkout分支间快速切换"
 description: ""
 category: git
-tags: [git]
+tags: [git,checkout]
 ---
 {% include JB/setup %}
 

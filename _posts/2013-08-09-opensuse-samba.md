@@ -3,7 +3,7 @@ layout: post
 title: "opensuse 11.3开启samba"
 description: ""
 category: linux
-tags: [linux]
+tags: [linux,opensuse,samba]
 ---
 {% include JB/setup %}
 
