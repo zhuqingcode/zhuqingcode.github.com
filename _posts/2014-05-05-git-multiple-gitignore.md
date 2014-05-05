@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "多级目录下.gitignore"
+title: "多级目录下gitignore"
 description: ""
 category:git 
 tags: [git,.gitignore]
