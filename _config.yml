@@ -28,7 +28,7 @@ nav:
 #Author config
 author:
     name: 掌心
-    email: zhanxin.info@gmail.com
+    email: zhuqinggooogle@gmail.com
     imageLink: http://tp2.sinaimg.cn/1832671293/180/40020872447/1
     simpleIntro: 我是「展新展新」，一个矛盾体的化身，在你的掌心里。
     detailIntro:
@@ -40,15 +40,11 @@ follow:
   - class: icon-rss
     url: /atom.xml
   - class: icon-weibo
-    url: http://weibo.com/pizn
-  - class: icon-renren
-    url: http://renren.com
+    url: http://weibo.com/u/1261201793
   - class: icon-github-alt
-    url: http://github.com/pizn
+    url: https://github.com/zhuqingcode
   - class: icon-twitter
-    url: http://twitter.com/piznlin
-  - class: icon-google-plus
-    url: http://google.com
+    url: https://twitter.com/maomaotwiter
 
 #Links
 customLinks:
@@ -68,11 +64,6 @@ customLinks:
     - text: jQuery
       url: http://jquery.com/
     message: 其他相关链接
-
-#googleAnaly, your id link UA-12345678-X
-googleAnaly:
-  config: true
-  id: UA-40169250-1
 
 #comment config
 disqus:
