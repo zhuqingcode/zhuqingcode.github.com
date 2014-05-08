@@ -2,7 +2,7 @@
 layout: post
 title: "多级目录下gitignore"
 description: ""
-category:git 
+category: git 
 tags: [git,.gitignore]
 ---
 {% include JB/setup %}  
