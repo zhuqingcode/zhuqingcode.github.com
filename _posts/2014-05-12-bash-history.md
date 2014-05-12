@@ -111,7 +111,7 @@ Bash命令历史是非常强大的。理解如何有效地使用Bash历史扩展
 	ls -l /backup/home-dir-backup.tar.gz  
 
 
-###7. Get all the arguments from a command using :*
+###7. 使用:*获取全部参数
 
 
 在接下来的例子中，“!cp:*”是作为“ls -l”的参数的。“!cp:*”定位先前命令中以“cp”开头的命令，然后获取其所有参数。  
