@@ -64,6 +64,9 @@ Bash命令历史是非常强大的。理解如何有效地使用Bash历史扩展
 
 接下来的一个例子将会在先前的历史记录中搜索含有“apache”的命令，并且执行它。在这个例子中它挑选出“/usr/local/apache2/bin/apachectl restart”这个命令并且执行它。  
 
+	$ !?apache
+	/usr/local/apache2/bin/apachectl restart
+
 ###3.使用^str1^str2^从历史记录中替换字符串  
 
 在下面这个例子中，我们先执行ls命令以确认一个文件。稍后，我们将看一下其内容。我们只用在先前的命令中替换ls而不是敲入整个文件的名字即可，如下：  
