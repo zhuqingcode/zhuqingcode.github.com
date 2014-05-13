@@ -5,7 +5,6 @@ description: ""
 category: google
 tags: [google,intext]
 ---
-{% include JB/setup %}
 
 少说废话，今天直接切入主题：intext语法在google搜索的应用。假设这么一种情况：你想你搜索的内容出现在网页正文里面，  
 

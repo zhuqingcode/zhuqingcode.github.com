@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [linux,timer,HZ]
 ---
-{% include JB/setup %}
 
 使用过linux内核定时器的同学肯定听过*系统时钟*，*滴答数*，*HZ*等一些专业术语，如果还不熟悉，自己最好先大致了解一下，以备不时之用。好了，废话少说，切入主题！  
 

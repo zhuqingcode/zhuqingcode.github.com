@@ -5,7 +5,6 @@ description: ""
 category: shell
 tags: [shell]
 ---
-{% include JB/setup %}
 
 ##原文地址：[http://www.thegeekstuff.com/2011/08/bash-history-expansion/](http://www.thegeekstuff.com/2011/08/bash-history-expansion/)  
 

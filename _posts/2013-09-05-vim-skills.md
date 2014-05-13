@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [vim, linux]
 ---
-{% include JB/setup %}
 
 作为一个游荡在windows和linux之间的程序员来说，可能对*vim*的一些技巧不怎么熟悉，这里包括我。我常常会认为死记硬背那些技巧有什么用，背着背着就忘了，毕竟我不常在*vim*下编写代码。但是，作为一个玩linux的猿人来说，不懂*vim*似乎又说不过去。于是乎，我下定决心去恶补一下*vim*的相关知识。  
 

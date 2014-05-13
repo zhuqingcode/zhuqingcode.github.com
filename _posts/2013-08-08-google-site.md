@@ -5,7 +5,6 @@ description: ""
 category: google
 tags: [google,site]
 ---
-{% include JB/setup %}
 
 对于大陆的很多网民来说上个facebook，twitter很困难，因为内地的网络被[GFW][1]严格地控制着。  
 

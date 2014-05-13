@@ -5,7 +5,6 @@ description: ""
 category: git
 tags: [git,checkout]
 ---
-{% include JB/setup %}
 
 #在
 使用*git*的分支*branch*功能时常常要在两个分支间来回切换，一般都是这么操作的：  

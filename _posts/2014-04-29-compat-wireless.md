@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [compat-wireless,wifi]
 ---
-{% include JB/setup %}
 
 项目中用的wifi模块（skw17），用的是Atheros的芯片（高通创锐讯），驱动要用*compat wireless*。但是在编译*compat wireless*不同的版本的过程中会遇到这个错误：  
 

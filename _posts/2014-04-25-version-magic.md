@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [version-magic,git]
 ---
-{% include JB/setup %}
 
 在调试linux驱动的过程中偶然遇到这么一种情况：  
 

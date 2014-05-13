@@ -5,7 +5,6 @@ description: ""
 category: git 
 tags: [git,.gitignore]
 ---
-{% include JB/setup %}  
 
 假设有这么一种情况：项目中要用到git进行代码跟踪，这个项目有很大，涉及到多级目录。例如：  
 

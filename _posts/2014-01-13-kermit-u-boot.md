@@ -5,7 +5,7 @@ description: ""
 category: linux
 tags: [linux,kermit,u-boot]
 ---
-{% include JB/setup %}  
+ 
 
 做嵌入式软件的猿人肯定听说过u-boot，关于其定义及功能这里不作解释，详见维基百科[*u-boot*][1]以及自己google。  
 

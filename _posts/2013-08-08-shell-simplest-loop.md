@@ -5,7 +5,6 @@ description: ""
 category: shell
 tags: [shell,bash,loop]
 ---
-{% include JB/setup %}
 
 在linux下编程的程序猿都知道shell脚本，就算你不怎么熟悉，也应该听过的吧！那在shell脚  
 

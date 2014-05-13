@@ -5,7 +5,6 @@ description: ""
 category: markdown
 tags: [markdown]
 ---
-{% include JB/setup %}
 
 换行：
 =

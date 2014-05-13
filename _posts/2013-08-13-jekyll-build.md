@@ -5,7 +5,6 @@ description: ""
 category: Jekyll
 tags: [Jekyll]
 ---
-{% include JB/setup %}
 
 关于怎么使用*jekyll*写博客，这儿不作介绍，网上有大把大把的教程，这里只想介绍一下*Jekyll build*时产生的警告*"cannot close fd before spawn"*而导致*jekyll build*失败（反馈消息：*"Conversion error: There was an error converting _posts/xxx.md"*），因为这个问题实在困扰了我好久，想把解决方法分享给大家。  
 

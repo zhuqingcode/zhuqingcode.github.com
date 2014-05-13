@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [vim]
 ---
-{% include JB/setup %}
 
 上篇简单介绍了*vim*光标(cursor)移动，如果你觉得*vim*只能这么移动光标，你就大错特错了。可以这么说*vim*完全颠覆了我们在windows下使用IDE的一些思想，可以和鼠标说拜拜了。其实，鼠标在*vim*里面也没有什么用处。废话少说，直接进入主题。  
 

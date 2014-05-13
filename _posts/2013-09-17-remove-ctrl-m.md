@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [vim]
 ---
-{% include JB/setup %}  
 
 游离在windows和linux下的猿人肯定遇到过这个问题：在windows写的脚本程序，在linux下打开的时候出现了**^M**。这就牵扯到windows下回车和换行与linux下的区别，关于这个我不解释，去google吧，人家比我说的好多了！这里说一下在vim下怎么删除**^M**。  
 

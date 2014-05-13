@@ -5,7 +5,7 @@ description: ""
 category: linux
 tags: [jffs2,mount,linux]
 ---
-{% include JB/setup %}  
+
 
 jffs2文件系统对于做嵌入式linux开发的人来说肯定再熟悉不过了，而PC（宿主）机上一般不用这个文件系统。现在问题来了，那么如果你拿到一个jffs2的问题系统镜像，如果你对其中的内容很感兴趣，你想查看其内容该怎么办呢？不要告诉我直接*cat*它，这样会被人家鄙视的！下面就来简单介绍如何办！  
 

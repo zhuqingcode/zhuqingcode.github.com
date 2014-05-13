@@ -5,7 +5,6 @@ description: ""
 category: google
 tags: [google,intitle]
 ---
-{% include JB/setup %}
 
 昨天说了一下“intext”的用法，今天就来粗略的介绍一下“intitle”的用法。“intitle”顾名思义
 

@@ -5,7 +5,6 @@ description: ""
 category: git
 tags: [git,.gitignore]
 ---
-{% include JB/setup %}
 
 自己在使用git的过程中常常碰到这么一种情况：我只想跟踪这个工程下的某一个目录，其余目录不想关心，因为我本上不修改不感兴趣目录下的源代码。这种情况经常会在一些移植的时候碰到，例如U-boot，linux kernel等等。  
 

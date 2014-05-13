@@ -5,7 +5,6 @@ description: ""
 category: google
 tags: [google,filetype]
 ---
-{% include JB/setup %}
 
 
 都说google在搜索方面是老大，对于习惯用baidu的大陆网名来说，很多人没有体会到。对于像

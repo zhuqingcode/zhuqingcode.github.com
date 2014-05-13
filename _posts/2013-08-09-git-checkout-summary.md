@@ -5,7 +5,6 @@ description: ""
 category: git
 tags: [git,checkout]
 ---
-{% include JB/setup %}
 
 * **切换分支**： 
 

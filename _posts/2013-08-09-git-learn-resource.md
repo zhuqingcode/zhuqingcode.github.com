@@ -5,7 +5,6 @@ description: ""
 category: git
 tags: [git]
 ---
-{% include JB/setup %}
 
 每一个合格的码农，都应该知道**git**。的确，**git**在代码管理方面很强大。下面我就分享一
 

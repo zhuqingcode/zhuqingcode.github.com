@@ -5,7 +5,6 @@ description: ""
 category: git
 tags: [git, github,master]
 ---
-{% include JB/setup %}
 
 使用过git和[github][1]来管理和托管代码的人都知道在[github][1]上默认的分支是**master**。  
 

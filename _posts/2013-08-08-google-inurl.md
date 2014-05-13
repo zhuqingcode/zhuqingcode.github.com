@@ -5,7 +5,6 @@ description: ""
 category: google
 tags: [google,inurl]
 ---
-{% include JB/setup %}
 
 前面介绍了google技巧之site和filetype，今天就来说一下inurl。对于初学者来说，可能不知道“URL”是个什么东西。
 

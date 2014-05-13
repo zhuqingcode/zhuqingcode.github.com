@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [Makefile,static]
 ---
-{% include JB/setup %}  
 
 关于**./xxx: not found**，但是**xxx**确实是存在当前目录下的。不知道你是否遇到过，反正我是遇到过了，下面就举个实例说明一下。  
 

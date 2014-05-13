@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [linux,opensuse,samba]
 ---
-{% include JB/setup %}
 
 由于自己在开发过程中一直使用SUSE，刚开始使用的是SUSE 10.1 后来感觉有点落伍了，于是装了个openSUSE 11.3，SUSE不知道什么时候改名为openSUSE的，不管啦，反正我还是比较喜欢openSUSE，很酷！
 可是我要通过windows去访问虚拟机下的内容，包括用sourceinsight看内核源代码，所以不得不用samba服务了。但是怎么在openSUSE 11.3上开启samba服务呢？这个问题困惑了我好久，上网搜了一下，没有一篇说的令我满意的，尽他妈瞎扯淡！于是，我自己捣鼓了许久，终于搞定了，所以想写篇博客儿记录一下！  

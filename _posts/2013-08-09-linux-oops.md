@@ -5,7 +5,6 @@ description: ""
 category: linux
 tags: [linux,oops]
 ---
-{% include JB/setup %}
 
 这几天一直在调试atmel at91sam9x25的串口，用着用着总会导致Oops，Oops内容如下：  
 
