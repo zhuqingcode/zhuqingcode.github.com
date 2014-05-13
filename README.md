@@ -5,5 +5,6 @@
 * git
 * 嵌入式Linux
 * Shell/Bash
+* google搜索技巧
 
 > 更多内容请猛击 ：[http://zhuqingcode.github.io](http://zhuqingcode.github.io)
