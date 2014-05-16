@@ -6,9 +6,13 @@ category: git
 tags: [git,reflog]
 ---
 
-不知道大家在使用*git*的过程中有没有遇到这样一种情况：一不小心操作*git reset*的时候出错导致这几个星期辛辛苦苦写的代码全丢失了，加上如果没有推送到远程仓库，这下子你就快疯掉了，心中暗想：难道要老子重新写一遍，靠！其实不然，相反，你该庆幸，因为你使用了*git*进行代码跟踪的。记住，只要是你在*git*中提交过的*commit*没那么容易就真正地消失的。除非你想让他彻底的消失。这时候*git reflog*就排上用场了，下面就结合实例做出解释。  
+不知道大家在使用*git*的过程中有没有遇到这样一种情况：一不小心操作*git reset*的时候出错导致这几个星期辛辛苦苦写的代码全丢失了，加上如果没有推送到远程仓库，这下子你就快疯掉了，心中暗想：难道要老子重新写一遍，靠！其实不然，相反，你该庆幸，因为你使用了*git*进行代码跟踪的。记住：
 
-* 新建一个目录git-test，初始化一下仓库，做一次简单的提交：  
+##只要是你在*git*中提交过的*commit*没那么容易就真正地消失的。除非你想让他彻底的消失。  
+
+这时候*git reflog*就排上用场了，下面就结合实例做出解释。  
+
+1.新建一个目录git-test，初始化一下仓库，做一次简单的提交：  
 
 	mkdir git-test  
 	cd git-test/  
@@ -17,7 +21,7 @@ tags: [git,reflog]
 	git add .  
 	git commit -am "init"  
 
-* 假设这几个星期你做了三次重要代码的提交：  
+2.假设这几个星期你做了三次重要代码的提交：  
 
 	linux-geek:/home/tmp/git-test # echo "important code0" >> test  
 	linux-geek:/home/tmp/git-test # git commit -am "important code0"  
@@ -37,7 +41,7 @@ tags: [git,reflog]
 	important code1  
 	important code2  
 
-* 就在这个时候，假设你头脑突然短路，用了*git reset*这条命令：  
+3.就在这个时候，假设你头脑突然短路，用了*git reset*这条命令：  
 
 	linux-geek:/home/tmp/git-test # git reset --hard HEAD~3  
 	HEAD is now at 2e71cf6 init  
