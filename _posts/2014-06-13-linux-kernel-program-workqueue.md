@@ -2,7 +2,7 @@
 layout: post
 title: "Linux内核编程之工作队列(work_queue)的简单使用"
 description: ""
-category:linux 
+category: linux 
 tags: [linux,workqueue]
 ---
 
