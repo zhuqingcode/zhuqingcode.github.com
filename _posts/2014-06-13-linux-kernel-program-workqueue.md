@@ -3,8 +3,9 @@ layout: post
 title: "Linux内核编程之工作队列(work_queue)的简单使用"
 description: ""
 category:linux 
-tags: [linux]
+tags: [linux,workqueue]
 ---
+
 
 这里对Linux的工作队列(work_queue)不做深层次的挖掘，只对如何使用它以及一些简单的结构做简单地介绍。  
 
