@@ -30,7 +30,7 @@ Linux源代码(3.0.8)中和工作队列(work_queue)相关的结构主要在
 	static int __init workqueue_init(void)  
 	{  
 		printk("init work queue demo.\n");
-		INIT_WORK(&work, work_handler);  
+		INIT_WORK(&work, work_handler);
 		schedule_work(&work);  
 		return 0;  
 	}  
@@ -109,7 +109,7 @@ Linux源代码(3.0.8)中和工作队列(work_queue)相关的结构主要在
 			return -1;  
 	 	printk("init work queue demo.\n");
 	  	INIT_WORK(&work, work_handler);  
-	  	queue_work("",&work);  
+	  	queue_work("queue", &work);  
 	  	return 0;    
 	}  
 	  
