@@ -192,14 +192,14 @@ tags: [linux,completion]
 看上去打印好乱，其实这是因为驱动demo里和上层demo里都有打印，打印混乱的结果。如果没有混乱应该是下面的情况：  
 
 /mnt/3520d $ ./demo 
-	----father process----
-	completion opened.
-	sleep for 10s just for delaying write operation.
-	----child process----
-	completion opened.
-	completion read.
-	completion write.
-	write ok.
-	completion released.
-	/mnt/3520d $ completion released.   
+	----father process----  
+	completion opened.  
+	sleep for 10s just for delaying write operation.  
+	----child process----  
+	completion opened.  
+	completion read.  
+	completion write.  
+	write ok.  
+	completion released.  
+	/mnt/3520d $ completion released.     
 
