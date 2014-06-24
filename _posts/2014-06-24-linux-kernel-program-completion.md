@@ -43,8 +43,11 @@ tags: [linux,completion]
 		ssize_t ret;
 		printk("completion read.\n");
 		wait_for_completion_interruptible(&completion_demo);
-		ret = copy_to_user(buffer, completion_str, sizeof(completion_str));
-		return ret;
+		if (ret == 0) {
+			return count;
+		} else {
+			return -EFAULT;
+		}
 	}
 	
 	static ssize_t completion_write(struct file *file, const char __user *buffer, size_t count, loff_t *pos) {
@@ -187,7 +190,8 @@ tags: [linux,completion]
 	completion write.
 	write ok.
 	completion released.
-	/mnt/3520d $ completion released.  
+	/mnt/3520d $ completion released.
+	completion demo  
 
 看上去打印好乱，其实这是因为驱动demo里和上层demo里都有打印，打印混乱的结果。如果没有混乱应该是下面的情况：  
 
@@ -200,6 +204,7 @@ tags: [linux,completion]
 	completion read.  
 	completion write.  
 	write ok.  
-	completion released.  
+	completion released.
+	completion demo 
 	/mnt/3520d $ completion released.     
 
