@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Linux内核编程时等待队列的简单使用"
+title: "Linux内核编程之等待队列的简单使用"
 description: ""
 category: linux
 tags: [linux,waitqueue]
