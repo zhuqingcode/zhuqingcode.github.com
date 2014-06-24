@@ -25,7 +25,7 @@ tags: [linux,completion]
 	#include <linux/fs.h>
 	#include <linux/errno.h>
 	
-	DECLARE_COMPLETION(completion_demo);
+	DECLARE_COMPLETION(completion_demo);//定义一个completion变量
 	
 	static char completion_str[16] = {0x0};
 	
@@ -42,7 +42,7 @@ tags: [linux,completion]
 	static ssize_t completion_read(struct file *file, char __user *buffer, size_t count, loff_t *pos) {
 		ssize_t ret;
 		printk("completion read.\n");
-		wait_for_completion_interruptible(&completion_demo);
+		wait_for_completion_interruptible(&completion_demo);//阻塞在这儿
 		if (ret == 0) {
 			return count;
 		} else {
@@ -55,7 +55,7 @@ tags: [linux,completion]
 		printk("completion write.\n");
 		ret = copy_from_user(completion_str, buffer, count);
 		if (ret == 0) {
-			complete(&completion_demo);
+			complete(&completion_demo);//唤醒阻塞的进程
 			return count;
 		} else {
 			return -EFAULT;
