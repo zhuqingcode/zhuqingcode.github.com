@@ -26,9 +26,9 @@ tags: [linux,waitqueue]
 	#include <linux/wait.h>
 	#include <linux/sched.h>
 	
-	DECLARE_WAIT_QUEUE_HEAD(waitqueue_demo);
+	DECLARE_WAIT_QUEUE_HEAD(waitqueue_demo);//定义一个等待队列头
 	
-	static int waitqueue_flag = 0;
+	static int waitqueue_flag = 0;//读写flag
 	
 	static char waitqueue_str[16] = {0x0};
 	
@@ -45,7 +45,7 @@ tags: [linux,waitqueue]
 	static ssize_t waitqueue_read(struct file *file, char __user *buffer, size_t count, loff_t *pos) {
 		ssize_t ret;
 		printk("waitqueue read.\n");
-		wait_event_interruptible(waitqueue_demo, waitqueue_flag != 0);
+		wait_event_interruptible(waitqueue_demo, waitqueue_flag != 0);//读进程阻塞
 		ret = copy_to_user(buffer, waitqueue_str, count);
 		if (ret == 0) {
 			waitqueue_flag = 0;
@@ -61,7 +61,7 @@ tags: [linux,waitqueue]
 		ret = copy_from_user(waitqueue_str, buffer, count);
 		if (ret == 0) {
 			waitqueue_flag = 1;
-			wake_up_interruptible(&waitqueue_demo);
+			wake_up_interruptible(&waitqueue_demo);//唤醒读进程
 			return count;
 		} else {
 			return -EFAULT;
